@@ -1,0 +1,93 @@
+{
+    "name": "PlayerActionMap",
+    "maps": [
+        {
+            "name": "PlayerMovment",
+            "id": "eeb945b8-2630-49ac-9de1-4168d7350774",
+            "actions": [
+                {
+                    "name": "ForwardPress",
+                    "type": "Button",
+                    "id": "c5526109-3b27-4d9c-9dd7-481bf2ebede0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Sprint",
+                    "type": "Value",
+                    "id": "070eb73a-fe7e-4212-8cb9-7c964a6504b5",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "f52539a1-af81-4bb5-ae22-b3062b80622e",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ForwardPress",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "W+Shift",
+                    "id": "afb4a2c9-f1b8-43b1-a7bd-0e5891701983",
+                    "path": "TwoModifiers",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "Modifier 1",
+                    "id": "8c8d9f26-8496-42c0-91fc-f7fe060508b0",
+                    "path": "<Keyboard>/leftShift",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Modifier 2",
+                    "id": "01460952-60ce-4668-ae0e-68df3fd3cb46",
+                    "path": "<Keyboard>/#(W)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "Binding",
+                    "id": "28766e28-78e7-4961-affb-a9a3dc9a1603",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Sprint",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": [
+        {
+            "name": "Mouse and Keybord",
+            "bindingGroup": "Mouse and Keybord",
+            "devices": []
+        }
+    ]
+}
