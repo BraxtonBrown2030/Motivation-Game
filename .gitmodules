@@ -1,0 +1,3 @@
+[submodule "Motivation Game/Assets/SharedTools"]
+	path = Motivation Game/Assets/SharedTools
+	url = https://github.com/BraxtonBrown2030/Shared-tool-for-unity.git
